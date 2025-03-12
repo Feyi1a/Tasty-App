@@ -30,7 +30,9 @@ nav {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  font-size: 15px;
+  padding: 1rem 0.9rem;
+  text-wrap: nowrap;
   background-color: rgba(255, 255, 255, 0.95);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -46,7 +48,10 @@ nav {
 
 .nav-links {
   display: flex;
-  gap: 2.5rem;
+  margin-left: 20px;
+  gap: 1rem;
+  justify-content: space-between;
+  font-weight: bold;
 }
 
 .nav-links a {
@@ -374,10 +379,10 @@ nav {
 .footer {
   background: #5e5655;
   color: white;
-  padding: 4rem 2rem;
+  padding: 2rem 2rem;
   text-align: center;
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr 2fr;
+  grid-template-columns: 1fr 2fr 1fr;
 }
 
 .footer h2 {
@@ -427,7 +432,22 @@ nav {
     font-size: 2.2rem;
   }
 
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
   .food-bar {
     flex-direction: column;
+  }
+
+  .footer {
+    grid-template-columns: 2fr;
+    gap: 30px;
   }
 }
