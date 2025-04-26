@@ -388,7 +388,7 @@ nav {
   padding: 2rem 2rem;
   text-align: center;
   display: grid;
-  grid-template-columns: 2fr 2fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .footer h2 {
