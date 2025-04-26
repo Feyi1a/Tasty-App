@@ -31,23 +31,23 @@ export default function Footer() {
       </div>
       
       <div className="foot2">
-        <h2>About</h2>
+        <h2>ABOUT</h2>
         <ul>
           <li>About Us</li>
-          <li>Why Us</li>
+          <li>Why Choose Us</li>
           <li>Partner with Us</li>
           <li>Trust Board</li>
         </ul>
       </div>
       
       <div className="foot3">
-        <h2>Menus</h2>
+        <h2>MENUS</h2>
         <ul>
-          <li>Pasta</li>
-          <li>Salmon</li>
-          <li>Deserts</li>
-          <li>DIshes</li>
-          <li>Beefs</li>
+          <li>PASTA</li>
+          <li>SALMON</li>
+          <li>DESERTS</li>
+          <li>DISHES</li>
+          <li>BEEFS</li>
         </ul>
       </div>
       
