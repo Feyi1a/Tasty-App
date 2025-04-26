@@ -271,9 +271,15 @@ nav {
 }
 
 .newsletter h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: var(--dark-color);
+  color: #ccc;
+  /* color: var(--dark-color); */
+  background: url('/food-roll/Vegetable salad.png') center;
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
+  animation: 10s linear infinite;
 }
 
 .newsletter input {
@@ -382,7 +388,7 @@ nav {
   padding: 2rem 2rem;
   text-align: center;
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 2fr 2fr 1fr;
 }
 
 .footer h2 {
@@ -394,6 +400,18 @@ nav {
 .foot4 {
   display: flex;
   flex-direction: column;
+}
+
+
+.foot3, .foot2 {
+  width: 100px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-items: center;
+  margin-left: 180px;
+  row-gap: 10px;
 }
 
 .foot4 {
@@ -447,7 +465,7 @@ nav {
   }
 
   .footer {
-    grid-template-columns: 2fr;
+    grid-template-columns: 3fr;
     gap: 30px;
   }
 }
